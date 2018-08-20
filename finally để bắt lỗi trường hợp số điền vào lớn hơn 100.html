@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  var number = prompt('nhap vao 1 so');
+  try{
+    if(number > 100) throw "so lon qua";
+    console.log('so hop le');
+  }
+  catch (e) {
+    console.log('so khong hop le');
+  }
+  finally {
+    alert('cam on vi da nhap vao 1 so');
+
+  }
+</script>
+</body>
+</html>
